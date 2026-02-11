@@ -91,6 +91,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -98,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
+    <Content Include="App_Start\.vs\App_Start\CopilotIndices\17.14.1577.30250\CodeChunks.db" />
+    <Content Include="App_Start\.vs\App_Start\CopilotIndices\17.14.1577.30250\SemanticSymbols.db" />
+    <Content Include="App_Start\.vs\App_Start\FileContentIndex\703a08c1-ed27-4563-a00d-ed558e6a9b50.vsidx" />
+    <Content Include="App_Start\.vs\App_Start\v17\DocumentLayout.json" />
+    <Content Include="App_Start\.vs\slnx.sqlite" />
+    <Content Include="App_Start\.vs\VSWorkspaceState.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -107,7 +114,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="App_Browsers\" />
     <Folder Include="App_Data\" />
+    <Folder Include="App_Start\.vs\App_Start\copilot-chat\6b7c1d63\sessions\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
