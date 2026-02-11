@@ -6,11 +6,11 @@ using System.Web.Mvc;
 
 namespace Bande_dessinee.Controllers
 {
-    public class BandeDessinee : Controller
+    public class BandeDessineeController : Controller
     {
-        public void Detail()
+        public string Detail()
         {
-
+            return "Hello from the comic book controller!";
         }
     }
 }
