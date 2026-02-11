@@ -8,6 +8,9 @@ namespace Bande_dessinee.Controllers
 {
     public class BandeDessinee : Controller
     {
+        public void Detail()
+        {
 
+        }
     }
 }
